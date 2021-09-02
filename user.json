@@ -1,0 +1,14 @@
+{
+  "name": "Jeff",
+  "favoriteNumber": 3,
+  "isProgrammer": true,
+  "hobbies": ["Racing, Autocross, Suspension Tuning"],
+  "friends": [
+    {
+      "name": "Stan",
+      "favorite number": 57,
+      "isProgrammer": false,
+      "car": "Mazda Miata"
+    }
+  ]
+}

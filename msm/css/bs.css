@@ -1,0 +1,444 @@
+/*HTML and Body and Head sections*/
+body {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.99),
+      rgba(92, 0, 0, 0.75)
+    ),
+    url(../img/rbg5.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100%;
+}
+
+/****************Media Querys********************/
+
+@media screen and (max-width: 480px) {
+  .hideimage {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hideimage2 {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 812px) {
+  .hideimage812 {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 997px) {
+  .hideimage3 {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .hideimage1024 {
+    display: none !important;
+  }
+}
+
+/**********************************************/
+
+.row {
+  max-width: 100% !important;
+  overflow-x: hidden !important;
+  margin-left: 10px;
+  margin-right: 0px;
+}
+
+/*Logo and Navbar seciton*/
+
+.logo {
+  margin-top: 10px;
+  margin-left: 15px;
+  margin-right: 10px;
+}
+
+.navbar {
+  /*Removed the overflow: hidden tag to make it work with bootstrap 5.*/
+  background-image: linear-gradient(to right, rgb(5, 0, 0), rgb(248, 4, 4));
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 5px;
+  width: auto;
+  max-width: 100%;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/*Had to rename .dropdown to .dropdown-toggle to make it work with Bootstrap 5*/
+.dropdown-toggle {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown-toggle .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+/*Removes the drop-down arrow from the menu*/
+/*
+.dropdown-toggle::after {
+  content: unset;
+}
+*/
+
+.navbar a:hover,
+.dropdown:hover .dropbtn,
+.dropbtn:focus {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #470c0c;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(248, 3, 3, 0.801);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: rgb(250, 250, 250);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: rgb(5, 0, 0);
+}
+
+.show {
+  display: block;
+}
+
+/*Img section*/
+img {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+.imgrounded {
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+/*Hide image when screen is a mobile screen*/
+.hideimage {
+  display: inline;
+}
+
+/*Font and paragraphs and Headings seciton*/
+header {
+  width: auto;
+  max-width: auto;
+  display: block;
+  margin: auto;
+  align-content: center;
+}
+
+h1 {
+  font-family: Arial;
+  font-weight: strong;
+  text-align: center;
+  padding: 15px 0px 25px 0px;
+  color: rgb(255, 255, 255);
+}
+
+h2 {
+  font-family: Arial;
+  font-weight: strong;
+  text-align: center;
+  padding: 15px 0px 15px 0px;
+  color: rgb(255, 255, 255);
+}
+
+h3 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding: 15px 0px 15px 0px;
+}
+
+h4 {
+  font-family: Arial;
+  font-weight: strong;
+  text-align: center;
+  padding: 5px 0px 5px 0px;
+  color: rgb(255, 255, 255);
+}
+
+h5 {
+  font-family: Arial;
+  font-weight: strong;
+  text-align: center;
+  font-style: italic;
+  padding: 10px 0px 5px 0px;
+  color: rgb(255, 255, 255);
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  justify-content: space-evenly;
+  color: rgb(255, 255, 255);
+}
+
+.reviewtext {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  justify-content: space-evenly;
+  color: rgb(255, 255, 255);
+  padding: 0px 10px 25px 10px;
+}
+
+/*To keep all text spaced evenly in paragraph boxes.*/
+
+.space-evenly {
+  justify-content: space-evenly;
+}
+
+caption {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  text-align: justify;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+ul {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  justify-content: space-evenly;
+}
+
+ul a:hover {
+  font-weight: bolder;
+  color: rgb(224, 245, 107);
+}
+
+footer {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  text-align: justify;
+  color: rgb(255, 255, 255);
+  padding: 15px 0px 25px 10px;
+}
+
+.imgshadow {
+  padding: 2px;
+  box-shadow: 5px 5px 10px #f70202;
+}
+
+/*Review page buttons*/
+.btn3 {
+  display: inline-table;
+  width: auto;
+  max-width: auto;
+  min-width: auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(128, 0, 0);
+  border-style: solid;
+  border-radius: 8px;
+  border-width: 1px;
+  box-shadow: 0px rgb(80, 80, 80);
+  padding: 10px;
+}
+
+.btn3:hover {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  color: white;
+  background-color: rgb(100, 0, 0);
+  border-style: solid;
+  border-radius: 8px;
+  border-width: 1px;
+  box-shadow: 4px rgb(80, 80, 80);
+  padding: 12px;
+}
+
+.btn3:active {
+  background-color: rgb(100, 0, 0);
+  border-radius: 8px;
+  border-width: 1px;
+  box-shadow: 0 2px black;
+}
+
+/*List styling section*/
+
+ul {
+  list-style-position: inside;
+}
+
+.liStyle {
+  border-color: rgb(167, 165, 165);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+/*Blog styling for Kiryu*/
+
+.blog {
+  background-color: rgb(37, 37, 37, 0.45);
+  margin-top: 50px;
+  margin-right: 12px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16fpx;
+  font-weight: normal;
+  border-radius: 10px;
+}
+
+.blog-menu {
+  margin-top: 50px;
+}
+
+.bloghr {
+  color: darkgray;
+}
+
+/*table information*/
+
+table {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+th {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: strong;
+  font-size: 20px;
+  text-align: justify;
+  color: rgb(255, 255, 255);
+  padding: 2px;
+  text-align: justify;
+  vertical-align: top;
+}
+
+td {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-size: 16px;
+  justify-content: space-evenly;
+  color: rgb(255, 255, 255);
+  padding: 5px 5px 5px 5px;
+  vertical-align: top;
+}
+
+/*Gallery Pages CSS code*/
+.mySlides {
+  display: none;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: relative;
+  top: 60%;
+  width: auto;
+  padding: 16px 16px 16px 16px;
+  margin-top: -50px;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.next {
+  right: 30px;
+  left: 30px;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(107, 1, 1, 0.8);
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+}
+
+.caption-container {
+  text-align: center;
+  background-color: rgb(107, 1, 1);
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 16.66%;
+  padding: 3px 3px 3px 3px;
+}
+
+.demo {
+  opacity: 0.6;
+}
+/*End of Gallery code*/
+
+/*Section specific styling*/
+.na6 {
+  background-color: rgb(37, 37, 37, 0.45);
+  margin-top: 0px;
+  margin-right: 12px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16fpx;
+  font-weight: normal;
+  border-radius: 10px;
+}

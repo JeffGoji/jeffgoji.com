@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="keywords"
+        content="Jeff Anderson-Lester, Jeff Goji, Goji, Gojira, Miata, Mazda, MX5, Mazdaspeed, Supermiata, Xida, Review, Xida Club Sport, Miata Pictures, Web Developer, 91 Miata, Houston, Autocross, STO Autocross, SSM Autocross, STO, SSM, Hoosier, A7, HTML, CSS, JavaScript">
+    <meta name="author" content="Jeff Anderson-Lester">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta lang="en" content>
+    <meta charset=utf-8>
+    <meta description="My personal website detailing my experiences in the world of Miata ownership and racing.">
+
+
+
+    <!-- Bootstrap 5.0.2 core CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+    <!--Bootstrap 5.0.2 JavaScript-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+
+    <!--My Coding-->
+    <script type="text/javascript" src="../js/jquery.js"></script>
+    <script type="text/javascript" src="../js/java.js"></script>
+    <link rel="stylesheet" href="../css/bs.css">
+
+    <title>JeffGoji.com - A personal site.</title>
+
+    <script>var slideIndex = 1;
+        showSlides(slideIndex);
+
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("demo");
+            var captionText = document.getElementById("caption");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+            captionText.innerHTML = dots[slideIndex - 1].alt;
+        }
+
+    </script>
+
+</head>
+
+<body>
+
+    <!--Navigation bar-->
+    <div id="nav-placeholder">
+
+    </div>
+
+    <script>
+        $(function () {
+            $("#nav-placeholder").load("../nav.html");
+        });
+    </script>
+    <!--end of Navigation bar-->
+
+    <center>
+        <h2>Click on an image for a larger version</h2>
+        <p>This is a gallery showcasing little moments from my East coast trip in 2015.</p>
+    </center>
+
+    <!--Big Images-->
+    <div class="container">
+
+        <div class="mySlides">
+            <div class="numbertext">1 / 15</div>
+            <img src="img/15east/20151014_200258.jpg" style="width: 100%" class="img-fluid imgrounded">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">2 / 15</div>
+            <img src="img/15east/20151014_200930.jpg" style="width:100%" class="img-fluid imgrounded">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">3 / 15</div>
+            <img src="img/15east/20151014_202010.jpg" style="width:100%" class="img-fluid imgrounded">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">4 / 15</div>
+            <img src="img/15east/20151015_092836.jpg" style="width:100%" class="img-fluid imgrounded">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">5 / 15</div>
+            <img src="img/15east/20151015_092936.jpg" style="width:100%" class="img-fluid imgrounded">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">6 / 15</div>
+            <img src="img/15east/20151015_094004.jpg" style="width:100%" class="img-fluid imgrounded">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">7 / 15</div>
+            <img src="img/15east/20151015_101117.jpg" style="width:100%" class="img-fluid imgrounded">
+        </div>
+        <div class="mySlides">
+            <div class="numbertext">8 / 15</div>
+            <img src="img/15east/20151015_201401.jpg" style="width:100%" class="img-fluid imgrounded">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">9 / 15</div>
+            <img src="img/15east/20151015_203051.jpg" style="width:100%" class="img-fluid imgrounded">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">10 / 15</div>
+            <img src="img/15east/20151016_090001.jpg" style="width:100%" class="img-fluid imgrounded">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">11 / 15</div>
+            <img src="img/15east/20151016_095118.jpg" style="width:100%" class="img-fluid imgrounded">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">12 / 15</div>
+            <img src="img/15east/20151016_174055.jpg" style="width:100%" class="img-fluid imgrounded">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">13 / 15</div>
+            <img src="img/15east/20151017_141027.jpg" style="width:100%" class="img-fluid imgrounded">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">14 / 15</div>
+            <img src="img/15east/20151017_144606.jpg" style="width:100%" class="img-fluid imgrounded">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">15 / 15</div>
+            <img src="img/15east/20151020_164248.jpg" style="width:100%" class="img-fluid imgrounded">
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094; PREV</a>
+        <a class="next" onclick="plusSlides(1)">NEXT &#10095;</a>
+
+
+        <div class="caption-container">
+            <p id="caption"></p>
+        </div>
+
+        <!--Thumbnail sized images-->
+        <div class="row">
+            <div class="column">
+                <img class="demo cursor" src="img/15east/thumb/tn_20151014_200258.jpg" style="width:100%"
+                    class="img-fluid imgrounded" onclick="currentSlide(1)"
+                    alt="First stop of the trip. Chattanooga Brewing Company in Chattanooga Tennessee">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="img/15east/thumb/tn_20151014_200930.jpg" style="width:100%"
+                    class="img-fluid imgrounded" onclick="currentSlide(2)"
+                    alt="Fun fact, I’m a beer connoisseur and nothing beats trying new brews in different states.">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="img/15east/thumb/tn_20151014_202010.jpg" style="width:100%"
+                    class="img-fluid imgrounded" onclick="currentSlide(3)" alt="Enjoying the local selection">
+            </div>
+
+            <div class="column">
+                <img class="demo cursor" src="img/15east/thumb/tn_20151015_092836.jpg" style="width:100%"
+                    class="img-fluid imgrounded" onclick="currentSlide(4)"
+                    alt="My first trip ever to the infamous Tail of the Dragon!">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="img/15east/thumb/tn_20151015_092936.jpg" style="width:100%"
+                    class="img-fluid imgrounded" onclick="currentSlide(5)"
+                    alt="I rarely pose for pictures, but when I do it's usally car related.">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="img/15east/thumb/tn_20151015_094004.jpg" style="width:100%"
+                    class="img-fluid imgrounded" onclick="currentSlide(6)" alt="Great memories...">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="img/15east/thumb/tn_20151015_101117.jpg" style="width:100%"
+                    class="img-fluid imgrounded" onclick="currentSlide(7)" alt="Made a few new friends on our drive.">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="img/15east/thumb/tn_20151015_201401.jpg" style="width:100%"
+                    class="img-fluid imgrounded" onclick="currentSlide(8)"
+                    alt="Located in downtown Harrisburg Pennsylvania, I highly recommend this brwery if you're driving through.">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="img/15east/thumb/tn_20151015_203051.jpg" style="width:100%"
+                    class="img-fluid imgrounded" onclick="currentSlide(9)"
+                    alt="Another night another flight, all of them were pretty good.">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="img/15east/thumb/tn_20151016_090001.jpg" style="width:100%"
+                    class="img-fluid imgrounded" onclick="currentSlide(10)" alt="Back on the road in Pennsylvania">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="img/15east/thumb/tn_20151016_095118.jpg" style="width:100%"
+                    class="img-fluid imgrounded" onclick="currentSlide(11)"
+                    alt="You end up seeing a lot of these in Pennsylvania... That's right, missle silos.">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="img/15east/thumb/tn_20151016_174055.jpg" style="width:100%"
+                    class="img-fluid imgrounded" onclick="currentSlide(12)"
+                    alt="Finally made it to Stockbridge Massachusetts">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="img/15east/thumb/tn_20151017_141027.jpg" style="width:100%"
+                    class="img-fluid imgrounded" onclick="currentSlide(13)"
+                    alt="A great spot that brews their own beer in Bennington Vermont.">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="img/15east/thumb/tn_20151017_160855.jpg" style="width:100%"
+                    class="img-fluid imgrounded" onclick="currentSlide(14)"
+                    alt="I had no idea they still made bridges like this, but here it is!">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="img/15east/thumb/tn_20151020_164248.jpg" style="width:100%"
+                    class="img-fluid imgrounded" onclick="currentSlide(15)"
+                    alt="This place was an AMAZING tavern. It had the BEST Octoboerfest I have ever had, and the interior was like a throwback to the 1800s. The tavern itself is now gone, but the brewery is still there.">
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <h3>Page 1</h3>
+    <center><a href="east2.html"><button class="btn3">Go To Page 2</button></a></center>
+
+    <footer class="footer">&copy; Copyright 2021.</footer>
+</body>
+
+</html>>

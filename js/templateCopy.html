@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="keywords"
+        content="Jeff Anderson-Lester, Jeff Goji, Goji, Gojira, Miata, MX5, Mazdaspeed, Supermiata, Xida, Review, Xida Club Sport, Miata Pictures, Web Developer, 91 Miata, Autocross, STO Autocross, SSM Autocross, STO, SSM, Hoosier, A7, HTML, CSS, JavaScript">
+    <meta name="author" content="Jeff Anderson-Lester">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <header>
+        <center><img src="../img/banner1.png" alt="Website Banner" alignment="center"></center>
+        <link rel="stylesheet" href="../css/text.css">
+        <script type="text/javascript" src="../js/java.js"></script>
+
+    </header>
+    <title>JeffGoji.com - A personal site - Template</title>
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-S264NW5EKN"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-S264NW5EKN');
+    </script>
+</head>
+
+<body>
+    <div>
+        <div class="navbar">
+            <div class="dropdown">
+                <button class="dropbtn" onclick="myFunction()">Site Menu
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content" id="myDropdown">
+                    <a href="index.html">Home</a>
+                    <a href="sitenews.html">Site News</a>
+                    <a href="reviews.html">Product Reviews</a>
+                    <a href="msm/kiryu.html">Mazdaspeed Miata Specs</a>
+                    <a href="msm/index.html">Mazdaspeed MX5 Gallery</a>
+                    <a href="nc/index.html">Mazda MX5 Club Gallery</a>
+                </div>
+            </div>
+            <a href="games/index.html">My Portfolio</a>
+        </div>
+
+        <script>
+
+            function myFunction() {
+                document.getElementById("myDropdown").classList.toggle("show");
+            }
+
+
+            window.onclick = function (e) {
+                if (!e.target.matches('.dropbtn')) {
+                    var myDropdown = document.getElementById("myDropdown");
+                    if (myDropdown.classList.contains('show')) {
+                        myDropdown.classList.remove('show');
+                    }
+                }
+            }
+
+            function myFunction2() {
+                document.getElementById("myDropdown2").classList.toggle("show");
+            }
+
+
+            window.onclick = function (e) {
+                if (!e.target.matches('.dropbtn2')) {
+                    var myDropdown2 = document.getElementById("myDropdown2");
+                    if (myDropdown2.classList.contains('show')) {
+                        myDropdown2.classList.remove('show');
+                    }
+                }
+            }
+        </script>
+
+
+        <h1>Welcome to my Site!</h1>
+        <p>I built this site to keep an online record of significant events and upgrades made by me to various vehicles
+            I have
+            owned and currently own. I also will be posting photo galleries of various road trips.
+            <br>
+            I am also a Web developer and thoroughly enjoy building and creating, so this site is also a test bed for
+            various
+            scripts and whatever languages I learn in my career and decide to deploy in various ways throughout this
+            site as
+            time permits.
+            <br>
+            Have a look around and enjoy!
+
+        </p>
+
+        <footer>&copy; Copyright 2021.</footer>
+
+</body>
+
+</html>
